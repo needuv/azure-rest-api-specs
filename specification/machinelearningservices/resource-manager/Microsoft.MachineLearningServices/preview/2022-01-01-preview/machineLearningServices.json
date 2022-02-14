@@ -1625,6 +1625,15 @@
           },
           {
             "$ref": "../../../../../common-types/resource-management/v3/types.json#/parameters/ApiVersionParameter"
+          },
+          {
+            "name": "parameters",
+            "in": "body",
+            "description": "The object for creating or updating a new workspace connection",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/WorkspaceConnectionPropertiesV2BasicResource"
+            }
           }
         ],
         "responses": {
