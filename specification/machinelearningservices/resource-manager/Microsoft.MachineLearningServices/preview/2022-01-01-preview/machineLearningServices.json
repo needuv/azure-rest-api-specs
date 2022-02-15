@@ -5075,11 +5075,7 @@
       ],
       "properties": {
         "properties": {
-          "allOf": [
-            {
-              "$ref": "#/definitions/WorkspaceConnectionPropertiesV2"
-            }
-          ]
+          "$ref": "#/definitions/WorkspaceConnectionPropertiesV2"
         }
       },
       "additionalProperties": false
