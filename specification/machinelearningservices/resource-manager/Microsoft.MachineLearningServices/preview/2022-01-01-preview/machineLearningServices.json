@@ -4939,7 +4939,7 @@
       "additionalProperties": false,
       "x-ms-discriminator-value": "PAT"
     },
-    "StorageAccessToken": {
+    "SharedAccessSignature": {
       "type": "object",
       "allOf": [
         {
@@ -4962,7 +4962,7 @@
       ],
       "properties": {
         "credentials": {
-          "$ref": "#/definitions/StorageAccessToken"
+          "$ref": "#/definitions/SharedAccessSignature"
         }
       },
       "additionalProperties": false,
